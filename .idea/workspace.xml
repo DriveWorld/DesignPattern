@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68b823d6-7004-4204-87c4-82f1d791f32c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/model/singleton/singleton_eager/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/singleton/singleton_eager/Pig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/model/singleton/singleton_lazy/President.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/singleton/singleton_lazy/President.java" afterDir="false" />
-    </list>
+    <list default="true" id="68b823d6-7004-4204-87c4-82f1d791f32c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589522575855</updated>
       <workItem from="1589522579235" duration="1809000" />
-      <workItem from="1589942429140" duration="6875000" />
+      <workItem from="1589942429140" duration="7204000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式应用实例，总统产生案例，以此来展现单例模式的应用场景">
       <created>1589975732644</created>
@@ -223,11 +220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589981380155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.单例模式懒汉单例&#10;2.单例模式饿汉单例">
+      <created>1589981729787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589981729787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8684000" />
+    <option name="totallyTimeSpent" value="9013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -270,7 +274,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单例模式应用实例，总统产生案例，以此来展现单例模式的应用场景" />
     <MESSAGE value="在单例模式懒汉单例的基础上新建了饿汉单例" />
-    <option name="LAST_COMMIT_MESSAGE" value="在单例模式懒汉单例的基础上新建了饿汉单例" />
+    <MESSAGE value="1.单例模式懒汉单例&#10;2.单例模式饿汉单例" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.单例模式懒汉单例&#10;2.单例模式饿汉单例" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/model/singleton/LazySingleton.java" />
