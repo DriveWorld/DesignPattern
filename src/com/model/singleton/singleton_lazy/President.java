@@ -1,4 +1,4 @@
-package com.model.singleton;
+package com.model.singleton.singleton_lazy;
 
 public class President {
     private static volatile President instance = null;
