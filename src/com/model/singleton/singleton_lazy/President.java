@@ -1,5 +1,8 @@
 package com.model.singleton.singleton_lazy;
 
+/**
+ * 此处是懒汉单例模式应用
+ * */
 public class President {
     private static volatile President instance = null;
 

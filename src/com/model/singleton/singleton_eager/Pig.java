@@ -1,5 +1,8 @@
 package com.model.singleton.singleton_eager;
 
+/**
+ * 此处是饿汉单例模式应用
+ * */
 public class Pig {
     private static final Pig instance = new Pig();
 
