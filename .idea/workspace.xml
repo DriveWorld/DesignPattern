@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68b823d6-7004-4204-87c4-82f1d791f32c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -140,7 +139,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -192,7 +191,7 @@
       <workItem from="1589522579235" duration="1809000" />
       <workItem from="1589942429140" duration="8186000" />
       <workItem from="1590117520567" duration="5577000" />
-      <workItem from="1590287245122" duration="6273000" />
+      <workItem from="1590287245122" duration="6321000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式应用实例，总统产生案例，以此来展现单例模式的应用场景">
       <created>1589975732644</created>
@@ -243,11 +242,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590332494323</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.单例模式懒汉单例&#10;2.单例模式饿汉单例&#10;3.原型模式的浅克隆实现方法&#10;4.带原型管理器的原型模式和工厂模式实现">
+      <created>1590332660173</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590332660173</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21845000" />
+    <option name="totallyTimeSpent" value="21893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
