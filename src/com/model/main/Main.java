@@ -1,17 +1,21 @@
 package com.model.main;
 
+import com.model.factory.AbstractFactory;
+import com.model.factory.Product;
+import com.model.factory.ReadXML1;
 import com.model.realizetype.Citation;
 import com.model.realizetype.Realizetype;
+import com.model.realizetype.realizetype_manager.ProtoTypeManager;
+import com.model.realizetype.realizetype_manager.Shape;
 import com.model.singleton.singleton_eager.Pig;
 import com.model.singleton.singleton_lazy.President;
 
 public class Main {
-    public static void main(String[] args) throws CloneNotSupportedException {
-
-        Citation obj1 = new Citation("张三","同学：在2016学年第一学期中表现优秀，被评为三好学生。","韶关学院");
-        obj1.display();
-        Citation obj2 = (Citation) obj1.clone();
-        obj2.setName("李四");
-        obj2.display();
+    public static void main(String[] args) {
+        Product product;
+        AbstractFactory abstractFactory;
+        abstractFactory = (AbstractFactory) ReadXML1.getObject();
+        product = abstractFactory.newProduct();
+        product.show();
     }
 }
