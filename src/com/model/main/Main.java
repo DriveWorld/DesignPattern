@@ -1,21 +1,21 @@
 package com.model.main;
 
+import com.model.abstractFactory.Animal;
+import com.model.abstractFactory.Farm;
+import com.model.abstractFactory.Plant;
+import com.model.builder.Decorator;
+import com.model.builder.Parlour;
+import com.model.builder.ProjectManager;
 import com.model.factory.AbstractFactory;
 import com.model.factory.Product;
-import com.model.factory.ReadXML1;
-import com.model.realizetype.Citation;
-import com.model.realizetype.Realizetype;
-import com.model.realizetype.realizetype_manager.ProtoTypeManager;
-import com.model.realizetype.realizetype_manager.Shape;
-import com.model.singleton.singleton_eager.Pig;
-import com.model.singleton.singleton_lazy.President;
+import com.model.utils.ReadXML;
 
 public class Main {
     public static void main(String[] args) {
-        Product product;
-        AbstractFactory abstractFactory;
-        abstractFactory = (AbstractFactory) ReadXML1.getObject();
-        product = abstractFactory.newProduct();
-        product.show();
+        Decorator decorator;
+        decorator = (Decorator) ReadXML.getObject();
+        ProjectManager projectManager = new ProjectManager(decorator);
+        Parlour p = projectManager.decorate();
+        p.show();
     }
 }

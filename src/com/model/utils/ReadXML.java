@@ -1,4 +1,4 @@
-package com.model.factory;
+package com.model.utils;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -9,20 +9,18 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 
-public class ReadXML1 {
+public class ReadXML {
     public static Object getObject(){
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = documentBuilderFactory.newDocumentBuilder();
+            DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document;
-            document = builder.parse(new File("src/com/model/factory/config1.xml"));
+            document = documentBuilder.parse(new File("src/com/model/builder/config.xml"));
             NodeList nodeList = document.getElementsByTagName("className");
-            Node node = nodeList.item(0).getFirstChild();
-            String cName = "com.model.factory."+node.getNodeValue();
-            //System.out.println("新对象"+cName);
+            Node classNode = nodeList.item(0).getFirstChild();
+            String cName = "com.model.builder." + classNode.getNodeValue();
             Class<?> c = Class.forName(cName);
             Object object = c.newInstance();
-
             return object;
         } catch (Exception e) {
             e.printStackTrace();
