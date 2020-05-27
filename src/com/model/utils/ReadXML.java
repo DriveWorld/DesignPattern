@@ -15,10 +15,10 @@ public class ReadXML {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document;
-            document = documentBuilder.parse(new File("src/com/model/builder/config.xml"));
+            document = documentBuilder.parse(new File("src/com/model/adapter/config.xml"));
             NodeList nodeList = document.getElementsByTagName("className");
             Node classNode = nodeList.item(0).getFirstChild();
-            String cName = "com.model.builder." + classNode.getNodeValue();
+            String cName = "com.model.adapter." + classNode.getNodeValue();
             Class<?> c = Class.forName(cName);
             Object object = c.newInstance();
             return object;
