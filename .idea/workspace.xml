@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68b823d6-7004-4204-87c4-82f1d791f32c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/ElectricAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/ElectricMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/ObjectAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/OpticalAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/OpticalMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/adapter/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/proxy/AbstractSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/proxy/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/ConcreteImplementorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/HandBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/Implementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/RefinedAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/Yellow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/brideg/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model_23.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Model_23.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Model_23/com/model/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Model_23/com/model/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Model_23/com/model/utils/ReadXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Model_23/com/model/utils/ReadXML.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/model/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/model/utils/ReadXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/utils/ReadXML.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,113 +30,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/model/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/model/adapter/Adapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#109#110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/model/adapter/Motor.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Color.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/model/utils/ReadXML.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Yellow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/model/adapter/ElectricMotor.java">
+        <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Bag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/model/adapter/ElectricAdapter.java">
+        <entry file="file://$PROJECT_DIR$/src/com/model/brideg/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/model/brideg/HandBag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Wallet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/model/adapter/OpticalMotor.java">
+        <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Red.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="150">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/model/adapter/OpticalAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-              <folding>
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/model/adapter/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -146,13 +116,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/model/adapter/ObjectAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="240">
               <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,10 +157,21 @@
         <option value="$PROJECT_DIR$/src/com/model/adapter/ElectricMotor.java" />
         <option value="$PROJECT_DIR$/src/com/model/adapter/OpticalMotor.java" />
         <option value="$PROJECT_DIR$/src/com/model/utils/ReadXML.java" />
-        <option value="$PROJECT_DIR$/src/com/model/main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/model/adapter/config.xml" />
         <option value="$PROJECT_DIR$/src/com/model/adapter/ElectricAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/model/adapter/OpticalAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/Implementor.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/ConcreteImplementorA.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/Abstraction.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/RefinedAbstraction.java" />
+        <option value="$PROJECT_DIR$/src/com/model/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/Color.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/Red.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/Yellow.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/Bag.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/HandBag.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/Wallet.java" />
+        <option value="$PROJECT_DIR$/src/com/model/brideg/config.xml" />
       </list>
     </option>
   </component>
@@ -207,8 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,7 +211,7 @@
               <item name="Model_23" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="brideg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Model_23" type="b2602c69:ProjectViewProjectNode" />
@@ -274,6 +253,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -285,7 +266,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/model/adapter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/model/brideg" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -296,6 +277,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Model_23\src\com\model\brideg" />
       <recent name="E:\Project\Model_23\src\com\model\adapter" />
       <recent name="E:\Project\Model_23\src\com\model\builder" />
       <recent name="E:\Project\Model_23\src\com\model\abstractFactory" />
@@ -363,7 +345,9 @@
       <workItem from="1590367133495" duration="2856000" />
       <workItem from="1590451785864" duration="10817000" />
       <workItem from="1590470867358" duration="139000" />
-      <workItem from="1590554135674" duration="4642000" />
+      <workItem from="1590554135674" duration="4752000" />
+      <workItem from="1590669617775" duration="2079000" />
+      <workItem from="1590975920594" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式应用实例，总统产生案例，以此来展现单例模式的应用场景">
       <created>1589975732644</created>
@@ -435,17 +419,24 @@
       <option name="project" value="LOCAL" />
       <updated>1590477654226</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1.单例模式懒汉单例&#10;2.单例模式饿汉单例&#10;3.原型模式的浅克隆实现方法&#10;4.带原型管理器的原型模式和工厂模式实现&#10;5.抽象工厂模式及建造者模式实现&#10;6.代理模式及适配器模式的实现">
+      <created>1590561589535</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590561589535</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5241000" />
+    <option name="totallyTimeSpent" value="9415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.2647504" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,7 +480,8 @@
     <MESSAGE value="1.单例模式懒汉单例&#10;2.单例模式饿汉单例&#10;3.原型模式的浅克隆实现方法" />
     <MESSAGE value="1.单例模式懒汉单例&#10;2.单例模式饿汉单例&#10;3.原型模式的浅克隆实现方法&#10;4.带原型管理器的原型模式和工厂模式实现" />
     <MESSAGE value="1.单例模式懒汉单例&#10;2.单例模式饿汉单例&#10;3.原型模式的浅克隆实现方法&#10;4.带原型管理器的原型模式和工厂模式实现&#10;5.抽象工厂模式及建造者模式实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.单例模式懒汉单例&#10;2.单例模式饿汉单例&#10;3.原型模式的浅克隆实现方法&#10;4.带原型管理器的原型模式和工厂模式实现&#10;5.抽象工厂模式及建造者模式实现" />
+    <MESSAGE value="1.单例模式懒汉单例&#10;2.单例模式饿汉单例&#10;3.原型模式的浅克隆实现方法&#10;4.带原型管理器的原型模式和工厂模式实现&#10;5.抽象工厂模式及建造者模式实现&#10;6.代理模式及适配器模式的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.单例模式懒汉单例&#10;2.单例模式饿汉单例&#10;3.原型模式的浅克隆实现方法&#10;4.带原型管理器的原型模式和工厂模式实现&#10;5.抽象工厂模式及建造者模式实现&#10;6.代理模式及适配器模式的实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1590471004192">
@@ -510,13 +502,6 @@
             <element signature="e#283#284#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/builder/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -602,15 +587,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/adapter/ObjectAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/model/adapter/Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="90">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
           <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,59 +605,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/adapter/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/model/adapter/ElectricMotor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="90">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
             <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/adapter/OpticalMotor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/model/adapter/ElectricAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="150">
           <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Implementor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/ConcreteImplementorA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Abstraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/RefinedAbstraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/adapter/OpticalMotor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/adapter/OpticalAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -685,26 +690,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/model/adapter/OpticalAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/model/adapter/ObjectAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Red.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Yellow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/HandBag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Wallet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/builder/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/model/utils/ReadXML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="450">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/brideg/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>

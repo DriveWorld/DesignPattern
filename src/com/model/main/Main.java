@@ -7,6 +7,10 @@ import com.model.adapter.Adapter;
 import com.model.adapter.Motor;
 import com.model.adapter.ObjectAdapter;
 import com.model.adapter.Target;
+import com.model.brideg.Abstraction;
+import com.model.brideg.ConcreteImplementorA;
+import com.model.brideg.Implementor;
+import com.model.brideg.RefinedAbstraction;
 import com.model.builder.Decorator;
 import com.model.builder.Parlour;
 import com.model.builder.ProjectManager;
@@ -17,7 +21,8 @@ import com.model.utils.ReadXML;
 
 public class Main {
     public static void main(String[] args) {
-        Motor motor = (Motor) ReadXML.getObject();
-        motor.drive();
+        Implementor implementor = new ConcreteImplementorA();
+        Abstraction abstraction = new RefinedAbstraction(implementor);
+        abstraction.operation();
     }
 }
